@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DDanilz\\source\\repos\\DiscordKEWUDDbot\\DiscordKEWUDDbot\\DiscordKEWUDDbot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DDanilz\\source\\repos\\DiscordKEWUDDbot\\DiscordKEWUDDbot\\DiscordKEWUDDbot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DDanilz\\source\\repos\\DiscordKEWUDDbot\\DiscordKEWUDDbot\\DiscordKEWUDDbot.csproj",
+        "projectName": "DiscordKEWUDDbot",
+        "projectPath": "C:\\Users\\DDanilz\\source\\repos\\DiscordKEWUDDbot\\DiscordKEWUDDbot\\DiscordKEWUDDbot.csproj",
+        "packagesPath": "C:\\Users\\DDanilz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DDanilz\\source\\repos\\DiscordKEWUDDbot\\DiscordKEWUDDbot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DDanilz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Discord.Net.Commands": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Discord.Net.Webhook": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
